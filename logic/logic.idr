@@ -103,7 +103,7 @@ proofByContradiction {p} f =
     notNot g
 
 
--- Below are some example proofs
+------------ Below are some example proofs --------------
 
 -- This is a small lemma
 succEqIff : (n : Nat) -> (k : Nat) -> (n = k) <-> (S n = S k)
