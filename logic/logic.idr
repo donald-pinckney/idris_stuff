@@ -17,8 +17,9 @@
 interface LEM (prop : Type) where
     lawOfExcludedMiddle : Dec prop
 
-implementation LEM p where
-    lawOfExcludedMiddle = ?awerqwer
+-- To automatically turn on LEM for all types, just uncomment this.
+-- implementation LEM p where
+--     lawOfExcludedMiddle = ?awerqwer
 
 
 
